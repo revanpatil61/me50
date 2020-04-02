@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+body {
+    background-color: rgb(240,240,240) ;
+}
+
+.center {
+    text-align: center;
+}
+
+.top-nav {
+    padding: 20px;
+}
+
+a {
+    color: red;
+}
+
+a :link {
+    color: green;
+}
+
+a :visited {
+    color: gold;
+}
+
+a :hover {
+    color: white;
+}
+
+a :active {
+    color: fuchsia;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead td{
+    text-align: center;
+    color: blue;
+    font-weight: bolder;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+sup {
+    color: red;
+}
+
+.container {
+    max-width: 960px;
+}
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.card-body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nation {
+    font-weight: bold;
+}
+
+#about {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.about {
+    background-color: rgb(196, 193, 197) ;
+    margin-top: 50px;
+    padding: 20px;
+    color: rgb(39, 0, 214);
+}
